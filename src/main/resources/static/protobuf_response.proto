@@ -1,0 +1,12 @@
+//3.10.0
+syntax = "proto3";
+
+option java_outer_classname = "ProtobufResponseModel";
+
+message ProtobufResponse {
+
+    bytes data = 1;
+    int32 code = 2;
+    string message = 3;
+
+}

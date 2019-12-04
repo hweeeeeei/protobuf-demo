@@ -1,0 +1,16 @@
+//3.10.0
+syntax = "proto3";
+
+option java_outer_classname = "SingleTextRequestModel";
+
+message SingleTextRequest {
+
+    string receiver = 1;
+
+    string roomId = 2;
+
+    string backId = 3;
+
+    string content = 4;
+
+}

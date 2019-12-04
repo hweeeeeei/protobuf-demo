@@ -1,0 +1,12 @@
+//3.10.0
+syntax = "proto3";
+
+option java_outer_classname = "SingleTextResponseModel";
+
+message SingleTextResponse {
+
+    string messageId = 1;
+
+    int64 timestamp = 2;
+
+}
